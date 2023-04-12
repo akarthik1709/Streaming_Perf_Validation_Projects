@@ -37,7 +37,7 @@ fi
 ping_check_stats_sim_ip=$(ping -c 1 ${HOST})
 if [ $? != 0 ]; then
     echo "============================================="
-    echo "The reachability to NMS IP is not there"
+    echo "The reachability to IP is not there"
     echo "============================================="
     exit -1
 fi
